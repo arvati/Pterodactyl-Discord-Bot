@@ -7,7 +7,7 @@ export const run: RunFunction = (client) => {
     client.user?.setActivity(`${defaultSettings.prefix}help`, {
         type: 'PLAYING',
     });
-    client.user?.setUsername('TEST_BOT');
+    client.user?.setUsername('Pterodactyl');
     client.continueCmd.forEach((cmd, key) => {
         const command = client.commands.get(cmd.command);
         if (command && command.setup) {
