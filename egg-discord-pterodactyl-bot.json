@@ -4,13 +4,13 @@
         "version": "PTDL_v1",
         "update_url": "https:\/\/raw.githubusercontent.com\/arvati\/Pterodactyl-Discord-Bot\/master\/egg-discord-pterodactyl-bot.json"
     },
-    "exported_at": "2021-06-04T19:25:22+03:00",
+    "exported_at": "2021-07-13T19:25:22+03:00",
     "name": "Discord Pterodactyl Bot",
-    "author": "linas.alexx@gmail.com",
+    "author": "arvati@hotmail.com",
     "description": "A Pterodactyl Discord Bot egg.",
     "features": null,
     "images": [
-        "linux123123\/pterodactyl-images:buster-nodejs-lts"
+        "ghcr.io/software-noob/pterodactyl-images:nodejs_14","ghcr.io/software-noob/pterodactyl-images:nodejs_16", "linux123123\/pterodactyl-images:buster-nodejs-lts"
     ],
     "file_denylist": [],
     "startup": "yarn pterodactyl",
