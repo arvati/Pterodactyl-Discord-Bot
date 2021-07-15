@@ -10,7 +10,7 @@
     "description": "A Pterodactyl Discord Bot egg.",
     "features": null,
     "images": [
-        "ghcr.io/software-noob/pterodactyl-images:nodejs_14","ghcr.io/software-noob/pterodactyl-images:nodejs_16", "linux123123\/pterodactyl-images:buster-nodejs-lts"
+        "ghcr.io/software-noob/pterodactyl-images:nodejs_14","ghcr.io/software-noob/arm64:nodejs_14", "linux123123\/pterodactyl-images:buster-nodejs-lts"
     ],
     "file_denylist": [],
     "startup": "yarn pterodactyl",
