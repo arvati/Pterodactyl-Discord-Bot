@@ -48,7 +48,7 @@ There are 10 permission levels. They are defined in `config.js`
 |               |                      | 7     |                |
 |               |                      | 8     |                |
 |               |                      | 9     |                |
-| Bot Creator   | Linux123123          | 10    | :red_circle:   |
+| Bot Creator   | arvati               | 10    | :red_circle:   |
 
 The rows without any information are left to change if you want to add more roles.
 
