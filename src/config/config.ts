@@ -83,7 +83,7 @@ export const config: Config = {
             name: 'Bot Creator',
             // Another simple check, compares the message author id to the one stored in the config file.
             // Do not change !
-            check: (message) => '244024524289343489' === message.author.id,
+            check: (message) => '606296957324886017' === message.author.id, 
         },
     ],
 };
