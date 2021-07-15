@@ -7,7 +7,7 @@ import { Event } from '../interfaces/Event';
 import { GuildSettings } from '../interfaces/GuildSettings';
 
 export const defaultSettings: GuildSettings = {
-    prefix: '!',
+    prefix: 'p!',
     adminRole: 'Administrator',
     modRole: 'Moderator',
     embedColor: '#ff0000',
