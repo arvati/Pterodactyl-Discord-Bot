@@ -20,7 +20,8 @@ You may allocate 127.0.0.1:10080 port to it, no need of external ingress open po
 <h5>Requirements</h5>
 
 1. Discord Bot Token **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**<br>
-2. Node.js v14.0.0 or newer
+2. Add the bot to your discord server [see this page, but change the client ID with your APPLICATION ID](https://discordapi.com/permissions.html#3021040720)
+3. Node.js v14.0.0 or newer
 
 <h5>Install from the command line:</h5>
 
