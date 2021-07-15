@@ -1,15 +1,19 @@
 # Pterodactyl-Discord-Bot
 
-[![GitHub](https://img.shields.io/github/license/linux123123/Pterodactyl-Discord-Bot)](https://github.com/Linux123123/Pterodactyl-Discord-Bot/blob/main/LICENSE)
-[![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/linux123123/Pterodactyl-Discord-Bot/@linux123123/jspteroapi)](https://www.npmjs.com/package/@linux123123/jspteroapi)
-[![GitHub issues](https://img.shields.io/github/issues/linux123123/Pterodactyl-Discord-Bot)](https://github.com/Linux123123/Pterodactyl-Discord-Bot/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/linux123123/Pterodactyl-Discord-Bot)](https://github.com/Linux123123/Pterodactyl-Discord-Bot/pulls)
+This is a fork from https://github.com/Linux123123/Pterodactyl-Discord-Bot
+Thanks Linux123123 for his great job
 
-<h3>A simple pterodactyl discord bot using my own API library, that has a permission system.</h3>
+[![GitHub](https://img.shields.io/github/license/arvati/Pterodactyl-Discord-Bot)](https://github.com/arvati/Pterodactyl-Discord-Bot/blob/main/LICENSE)
+[![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/arvati/Pterodactyl-Discord-Bot/@linux123123/jspteroapi)](https://www.npmjs.com/package/@linux123123/jspteroapi)
+[![GitHub issues](https://img.shields.io/github/issues/arvati/Pterodactyl-Discord-Bot)](https://github.com/arvati/Pterodactyl-Discord-Bot/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/arvati/Pterodactyl-Discord-Bot)](https://github.com/arvati/Pterodactyl-Discord-Bot/pulls)
+
+<h3>A simple pterodactyl discord bot using Linux123123 API library, that has a own permission system.</h3>
 
 # Pterodactyl panel
 
-You can run the bot in the panel. You just need to import the [egg provided](https://github.com/Linux123123/Pterodactyl-Discord-Bot/raw/master/egg-discord-pterodactyl-bot.json) and create a server with it.
+You can run the bot in the panel. You just need to import the [egg provided](https://github.com/arvati/Pterodactyl-Discord-Bot/raw/master/egg-discord-pterodactyl-bot.json) and create a server with it.    
+You may allocate 127.0.0.1:10080 port to it, no need of external ingress open port.    
 
 # Manual installation
 
@@ -21,7 +25,7 @@ You can run the bot in the panel. You just need to import the [egg provided](htt
 <h5>Install from the command line:</h5>
 
 ```bash
-git clone https://github.com/Linux123123/Pterodactyl-Discord-Bot.git
+git clone https://github.com/arvati/Pterodactyl-Discord-Bot.git
 yarn install --production
 yarn build
 yarn start
@@ -55,4 +59,5 @@ Remember: This bot can potentially be dangerous with the ability to Delete Serve
 
 # Contributors
 
-Created and maintained by [Linux123123](https://github.com/linux123123)
+Created and maintained by [Linux123123](https://github.com/linux123123).   
+This is a fork from it.
