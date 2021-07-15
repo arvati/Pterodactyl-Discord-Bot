@@ -14,19 +14,19 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Linux123123/Pterodactyl-Discord-Bot.git"
+        "url": "git+https://github.com/arvati/Pterodactyl-Discord-Bot.git"
     },
     "keywords": [
         "Discord",
         "Pterodactyl",
         "BOT"
     ],
-    "author": "Linux123123",
+    "author": "arvati",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Linux123123/Pterodactyl-Discord-Bot/issues"
+        "url": "https://github.com/arvati/Pterodactyl-Discord-Bot/issues"
     },
-    "homepage": "https://github.com/Linux123123/Pterodactyl-Discord-Bot#readme",
+    "homepage": "https://github.com/arvati/Pterodactyl-Discord-Bot#readme",
     "dependencies": {
         "@linux123123/jspteroapi": "^2.3.4",
         "@types/node": "^14.14.31",
